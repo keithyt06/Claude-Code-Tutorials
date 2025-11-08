@@ -1,10 +1,10 @@
 <div align="center">
-    <h1>🚀 Claude Code Mastery Guide</h1>
-    <h3><em>Complete AI-Assisted Programming Tutorial</em></h3>
+    <h1>🚀 Claude Code: From Beginner to Expert</h1>
+    <h3><em>Complete AI-Assisted Programming Learning Resource Library</em></h3>
 </div>
 
 <p align="center">
-    <strong>From zero to expert, systematically learn Claude Code, master AI-assisted programming skills, and boost development efficiency by 10x.</strong>
+    <strong>From zero to advanced applications, systematically learn Claude Code, master AI-assisted programming skills, and boost development efficiency 10x</strong>
 </p>
 
 <p align="center">
@@ -29,15 +29,15 @@
 </p>
 
 <p align="center">
-    <a href="#-course-outline">Course Outline</a> •
+    <a href="#-quick-start">Quick Start</a> •
     <a href="#-learning-paths">Learning Paths</a> •
-    <a href="#-learning-objectives">Objectives</a> •
-    <a href="#-resources">Resources</a>
+    <a href="#-content-navigation">Content Navigation</a> •
+    <a href="#-extended-resources">Extended Resources</a>
 </p>
 
 <p align="center">
-    <a href="https://github.com/0xfnzero/AI-Code-Tutorials/blob/main/README.md">中文</a> |
-    <a href="https://github.com/0xfnzero/AI-Code-Tutorials/blob/main/README_EN.md">English</a> |
+    <a href="./README.md">中文</a> |
+    <a href="./README_EN.md">English</a> |
     <a href="https://fnzero.dev/">Website</a> |
     <a href="https://t.me/fnzero_group">Telegram</a> |
     <a href="https://discord.gg/vuazbGkqQE">Discord</a>
@@ -47,248 +47,334 @@
 
 ## 📖 Quick Start
 
-Start directly from [Lesson 1: What is Claude Code?](./tutorials/en/01-basics.md). Lesson 2 includes complete installation and configuration guide.
+### Beginner's Guide
+If this is your first time with Claude Code, start here:
 
-## 🎯 Course Outline
+1. 📚 Read [Lesson 1: What is Claude Code?](./docs/tutorials/en/01-基础概念.md)
+2. ⚙️ Follow [Lesson 2: Installation and Configuration](./docs/tutorials/en/02-安装和配置.md) to set up your environment
+3. 💬 Try [Lesson 3: First Conversation](./docs/tutorials/en/03-第一次对话.md) to start practicing
 
-This tutorial adopts a progressive approach, divided into three stages: beginner, intermediate, and advanced. **Even with no programming background, you can follow along!**
+### Quick Reference
+- 🔍 Looking for commands? Visit the [Command Reference Guide](./docs/commands/README.md)
+- 📋 Need examples? Browse [Command Usage Examples](./docs/commands/examples/)
+- 🎯 Advanced tips? Check out [Best Practices](./docs/tutorials/en/12-最佳实践.md)
 
-### 📘 Beginner Level (Zero-Experience Friendly)
+---
 
-#### [Lesson 1: What is Claude Code?](./tutorials/en/01-basics.md)
-- Introduction to Claude Code
-- Difference from ChatGPT
-- What can it do? Who is it for?
-- Security considerations
+## 🗂️ Project Structure
 
-#### [Lesson 2: Installation and Configuration](./tutorials/en/02-installation.md)
-- Installing Node.js
-- Installing Claude Code
-- Getting and configuring API keys
-- First run
-- Troubleshooting common issues
-
-#### [Lesson 3: First Conversation](./tutorials/en/03-first-conversation.md)
-- Effective communication
-- Creating your first project (personal card webpage)
-- Understanding Claude Code workflow
-- Common interaction scenarios
-- Practical conversation templates
-
-#### [Lesson 4: Basic Commands and Operations](./tutorials/en/04-basic-commands.md)
-- Built-in command overview
-- File operation techniques
-- Project management methods
-- Code search and navigation
-- Basic Git operations
-
-### 📗 Intermediate Level (Skill Enhancement)
-
-#### [Lesson 5: Advanced File Operations](./tutorials/en/05-advanced-files.md)
-- Complex project structure management
-- Cross-file search and replace
-- Code refactoring techniques
-- Batch file operations
-- Configuration file management
-- Project documentation automation
-
-#### [Lesson 6: Hands-on Project - Complete Web Application](./tutorials/en/06-web-project.md)
-Build a task management app from scratch with 8 detailed modules:
-- [1.1 Project Planning](./tutorials/en/06-web-project/01-planning.md) - Requirements, tech stack
-- [1.2 Project Structure](./tutorials/en/06-web-project/02-structure.md) - Directory setup, version control
-- [1.3 Static Page Design](./tutorials/en/06-web-project/03-frontend-ui.md) - HTML/CSS, responsive layout
-- [1.4 Frontend Functionality](./tutorials/en/06-web-project/04-frontend-logic.md) - CRUD operations, local storage
-- [1.5 Backend Setup](./tutorials/en/06-web-project/05-backend-setup.md) - Express, SQLite, API routes
-- [1.6 User Authentication](./tutorials/en/06-web-project/06-authentication.md) - Registration, login, JWT
-- [1.7 Feature Enhancement](./tutorials/en/06-web-project/07-enhancements.md) - Search, filtering, drag-drop
-- [1.8 Deployment](./tutorials/en/06-web-project/08-deployment.md) - Heroku deployment, configuration
-
-#### [Lesson 7: Advanced Techniques and Best Practices](./tutorials/en/07-advanced-techniques.md)
-Master advanced development skills with 6 specialized modules:
-- [1.1 Prompt Basics](./tutorials/en/07-advanced-techniques/01-prompt-basics.md) - Precise descriptions, context, examples
-- [1.2 Code Review](./tutorials/en/07-advanced-techniques/02-code-review.md) - Performance analysis, refactoring
-- [1.3 Debugging](./tutorials/en/07-advanced-techniques/03-debugging.md) - Systematic process, breakpoints, logs
-- [1.4 Design Patterns](./tutorials/en/07-advanced-techniques/04-design-patterns.md) - Singleton, Observer, Factory
-- [1.5 Error Handling](./tutorials/en/07-advanced-techniques/05-error-handling.md) - Unified handling, user-friendly messages
-- [1.6 Security](./tutorials/en/07-advanced-techniques/06-security.md) - Input validation, XSS/CSRF protection
-
-### 📕 Advanced Level (Professional Development)
-
-#### [Lesson 8: Claude Code Advanced Applications](./tutorials/en/08-advanced-applications.md)
-- AI Pair Programming
-- Complex project architecture design
-- Micro-frontend architecture
-- Plugin system design
-- Automated testing (unit tests, E2E tests)
-- CI/CD integration
-- Multi-language project development
-
-#### [Lesson 9: Prompt Optimization Techniques](./tutorials/en/09-prompt-optimization.md) ⭐
-**Secret to 10x efficiency boost** with 6 core modules:
-- [1.1 Six Golden Principles](./tutorials/en/09-prompt-optimization/01-six-principles.md) - Specific, structured, context-rich
-- [1.2 Advanced Techniques](./tutorials/en/09-prompt-optimization/02-advanced-techniques.md) - Role-setting, chain of thought, constraints
-- [1.3 Template Library](./tutorials/en/09-prompt-optimization/03-template-library.md) - Feature dev, code review, bug fixes
-- [1.4 Best Practices](./tutorials/en/09-prompt-optimization/04-best-practices.md) - Dos/Don'ts, common pitfalls
-- [1.5 Case Studies](./tutorials/en/09-prompt-optimization/05-case-studies.md) - Real projects, before/after
-- [1.6 Practice Exercises](./tutorials/en/09-prompt-optimization/06-exercises.md) - Prompt rewriting, hands-on practice
-
-#### [Lesson 10: AI Agent System](./tutorials/en/10-ai-agents.md) ⭐
-**Building your expert team** with 7 professional modules:
-- [1.1 Core Concepts](./tutorials/en/10-ai-agents/01-concepts.md) - What are agents, advantages, classification
-- [1.2 Development Agents](./tutorials/en/10-ai-agents/02-development-agents.md) - Frontend, backend, full-stack experts
-- [1.3 Architecture Agents](./tutorials/en/10-ai-agents/03-architecture-agents.md) - System, data, infrastructure architects
-- [1.4 Testing Agents](./tutorials/en/10-ai-agents/04-testing-agents.md) - Test engineers, QA, performance testing
-- [1.5 DevOps Agents](./tutorials/en/10-ai-agents/05-devops-agents.md) - CI/CD, containers, monitoring experts
-- [1.6 Collaboration Modes](./tutorials/en/10-ai-agents/06-collaboration-modes.md) - Single, serial, parallel, review
-- [1.7 Real Projects](./tutorials/en/10-ai-agents/07-real-projects.md) - Complete project development cases
-
-#### [Lesson 11: 34 Practical Tips](./tutorials/en/11-practical-tips.md)
-- Command Line (CLI) Tips (7 tips)
-- Image Processing Tips (6 tips)
-- Integration & External Data Tips (5 tips)
-- claude.md Configuration Tips (7 tips)
-- Custom Slash Command Tips (6 tips)
-- UI & Workflow Tips (3 tips)
-
-#### [Lesson 12: Best Practices (Official Anthropic)](./tutorials/en/12-best-practices.md) ⭐
-**Anthropic's official best practices** with 6 core topics:
-- Customize Your Setup (CLAUDE.md, tool permissions, gh CLI)
-- Give Claude More Tools (bash, MCP, slash commands)
-- Try Common Workflows (explore-plan-code-commit, TDD, visual feedback)
-- Optimize Your Workflow (specific instructions, images, URLs, prompt correction)
-- Use Headless Mode for Infrastructure Automation (issue triage, linter)
-- Multiple Claude Collaboration (code review, multi-repo, worktree)
-
-#### [Lesson 13: Complete MCP Server Guide](./tutorials/en/13-mcp-servers-guide.md) ⭐
-**Comprehensive MCP server configuration guide from beginner to expert**:
-- MCP core concepts and architecture
-- Three methods of adding servers (CLI, config file, project-level)
-- Scope details (Local/User/Project)
-- 10 most practical MCP server recommendations
-- Common errors and solutions
-- Debugging techniques and best practices
-- Special notes for Chinese users
-
-#### [Lesson 14: Complete Usage Guide](./tutorials/en/14-complete-usage-guide.md) ⭐
-**Claude Code encyclopedia and daily reference manual** with comprehensive content:
-- Installation, configuration, and system requirements
-- Complete CLI commands reference
-- Configuration file management (global/project/environment)
-- Deep MCP server integration
-- Prompt engineering and template library
-- File operations and code refactoring
-- Git workflow and team collaboration
-- Project management and documentation
-- Performance optimization techniques
-- Security best practices
-- Troubleshooting and debugging
-- Production environment practices (CI/CD, Docker, monitoring)
-
-## 🎓 Learning Path Recommendations
-
-### For Complete Beginners
 ```
-Lesson 1 → Lesson 2 → Lesson 3 → Lesson 4 → Lesson 6 (Hands-on)
-Estimated time: 2-3 weeks
+Claude-Code-Tutorials/
+│
+├── 📚 docs/
+│   ├── 📖 tutorials/          # Systematic Tutorials (Lessons 1-14)
+│   │   ├── zh/               # Chinese Tutorials
+│   │   └── en/               # English Tutorials
+│   │
+│   └── 📝 commands/           # Command Reference Guide
+│       ├── README_CN.md      # Command Index (Chinese)
+│       ├── README.md         # Command Index (English)
+│       └── examples/         # Command Usage Examples
+│           ├── session-management/   # Session Management
+│           ├── project-config/       # Project Configuration
+│           ├── workflow/             # Workflow
+│           ├── agents/               # AI Agents
+│           ├── context/              # Context Management
+│           ├── account/              # Account Management
+│           ├── system/               # System Diagnostics
+│           └── advanced/             # Advanced Features
+│
+├── 📦 assets/                 # Images and Resource Files
+├── 💡 examples/               # Complete Project Example Code
+├── README.md                  # Main Documentation (Chinese)
+├── README_EN.md              # Main Documentation (English)
+└── LICENSE                    # MIT License
 ```
 
-### For Those with Programming Experience
+---
+
+## 🎯 Content Navigation
+
+### 📚 Systematic Tutorials (Progressive Learning)
+
+#### 📘 Beginner Level (Zero-to-Hero Friendly)
+
+| Lesson | Title | Description | Link |
+|:---:|:---|:---|:---:|
+| 1 | What is Claude Code? | Basic concepts, features, use cases | [View](./docs/tutorials/en/01-基础概念.md) |
+| 2 | Installation and Configuration | Environment setup, API configuration, common issues | [View](./docs/tutorials/en/02-安装和配置.md) |
+| 3 | First Conversation | Effective communication, creating first project | [View](./docs/tutorials/en/03-第一次对话.md) |
+| 4 | Basic Commands and Operations | Built-in commands, file operations, Git basics | [View](./docs/tutorials/en/04-基本命令和操作.md) |
+
+#### 📗 Intermediate Level (Skill Enhancement)
+
+| Lesson | Title | Description | Link |
+|:---:|:---|:---|:---:|
+| 5 | Advanced File Operations | Complex project management, code refactoring techniques | [View](./docs/tutorials/en/05-文件操作进阶.md) |
+| 6 | Real Project - Web Application | Build a complete task management app from scratch | [View](./docs/tutorials/en/06-项目实战-Web应用.md) |
+| 7 | Advanced Techniques and Best Practices | Prompts, code review, debugging, design patterns | [View](./docs/tutorials/en/07-进阶技巧.md) |
+
+**Lesson 6 Detailed Modules:**
+- [1.1 Project Planning](./docs/tutorials/en/06-项目实战-Web应用/01-项目规划.md) - Requirements analysis, tech stack selection
+- [1.2 Project Structure Setup](./docs/tutorials/en/06-项目实战-Web应用/02-项目结构.md) - Directory structure, version control
+- [1.3 Static Page Design](./docs/tutorials/en/06-项目实战-Web应用/03-静态页面.md) - HTML/CSS, responsive layout
+- [1.4 Frontend Feature Implementation](./docs/tutorials/en/06-项目实战-Web应用/04-前端功能.md) - CRUD operations, local storage
+- [1.5 Backend Server Setup](./docs/tutorials/en/06-项目实战-Web应用/05-后端搭建.md) - Express, SQLite, API
+- [1.6 User Authentication System](./docs/tutorials/en/06-项目实战-Web应用/06-用户认证.md) - Registration/login, JWT, password encryption
+- [1.7 Feature Enhancement](./docs/tutorials/en/06-项目实战-Web应用/07-功能增强.md) - Search & filter, drag-and-drop sorting
+- [1.8 Deployment](./docs/tutorials/en/06-项目实战-Web应用/08-部署上线.md) - Heroku deployment, environment configuration
+
+**Lesson 7 Detailed Modules:**
+- [1.1 Prompt Basics](./docs/tutorials/en/07-进阶技巧/01-提示词基础.md) - Precise descriptions, context, example references
+- [1.2 Code Review](./docs/tutorials/en/07-进阶技巧/02-代码审查.md) - Performance optimization, refactoring suggestions
+- [1.3 Debugging Techniques](./docs/tutorials/en/07-进阶技巧/03-调试技巧.md) - Systematic debugging, breakpoints, logging
+- [1.4 Design Patterns](./docs/tutorials/en/07-进阶技巧/04-设计模式.md) - Singleton, observer, factory patterns
+- [1.5 Error Handling](./docs/tutorials/en/07-进阶技巧/05-错误处理.md) - Unified handling, friendly messages
+- [1.6 Security Best Practices](./docs/tutorials/en/07-进阶技巧/06-安全实践.md) - Input validation, XSS/CSRF protection
+
+#### 📕 Advanced Level (Professional Development)
+
+| Lesson | Title | Description | Link |
+|:---:|:---|:---|:---:|
+| 8 | Claude Code Advanced Applications | AI pair programming, complex architecture, automated testing | [View](./docs/tutorials/en/08-高级应用.md) |
+| 9 | ⭐ Prompt Optimization Techniques | **The Secret to 10x Efficiency** | [View](./docs/tutorials/en/09-提示词优化技巧.md) |
+| 10 | ⭐ AI Sub-Agent System | **Build Your Expert Team** | [View](./docs/tutorials/en/10-AI子代理系统.md) |
+| 11 | Practical Tips Collection | 34 battle-tested tips (CLI, images, integrations, etc.) | [View](./docs/tutorials/en/11-实用技巧集锦.md) |
+| 12 | ⭐ Best Practices | **Anthropic Official Recommendations** | [View](./docs/tutorials/en/12-最佳实践.md) |
+| 13 | ⭐ MCP Server Guide | **From Beginner to Expert MCP Configuration** | [View](./docs/tutorials/en/13-MCP服务器指南.md) |
+| 14 | ⭐ Complete Usage Guide | **Encyclopedia and Daily Reference Manual** | [View](./docs/tutorials/en/14-完整使用指南.md) |
+
+**Lesson 9 Detailed Modules:**
+- [1.1 Six Golden Principles](./docs/tutorials/en/09-提示词优化技巧/01-六大原则.md)
+- [1.2 Advanced Techniques](./docs/tutorials/en/09-提示词优化技巧/02-高级技巧.md)
+- [1.3 Template Library](./docs/tutorials/en/09-提示词优化技巧/03-模板库.md)
+- [1.4 Best Practices](./docs/tutorials/en/09-提示词优化技巧/04-最佳实践.md)
+- [1.5 Case Studies](./docs/tutorials/en/09-提示词优化技巧/05-案例研究.md)
+- [1.6 Practice Projects](./docs/tutorials/en/09-提示词优化技巧/06-练习项目.md)
+
+**Lesson 10 Detailed Modules:**
+- [1.1 Core Concepts](./docs/tutorials/en/10-AI子代理系统/01-核心概念.md)
+- [1.2 Development Agents](./docs/tutorials/en/10-AI子代理系统/02-开发类代理.md)
+- [1.3 Architecture Agents](./docs/tutorials/en/10-AI子代理系统/03-架构类代理.md)
+- [1.4 Testing Agents](./docs/tutorials/en/10-AI子代理系统/04-测试类代理.md)
+- [1.5 Operations Agents](./docs/tutorials/en/10-AI子代理系统/05-运维类代理.md)
+- [1.6 Collaboration Patterns](./docs/tutorials/en/10-AI子代理系统/06-协作模式.md)
+- [1.7 Real-World Projects](./docs/tutorials/en/10-AI子代理系统/07-实战项目.md)
+
+### 📝 Command Reference Guide
+
+Complete Claude Code command documentation with detailed descriptions and usage examples for all built-in commands:
+
+| Category | Description | Link |
+|:---|:---|:---:|
+| 📋 Command Index | Complete list of all commands and quick reference | [View](./docs/commands/README.md) |
+| 💼 Session Management | clear, compact, exit, rewind | [Examples](./docs/commands/examples/session-management/) |
+| ⚙️ Project Configuration | config, init, memory, permissions | [Examples](./docs/commands/examples/project-config/) |
+| 🔄 Workflow | review, todos, export, pr_comments | [Examples](./docs/commands/examples/workflow/) |
+| 🤖 AI Agents | agents, hooks, mcp, bashes | [Examples](./docs/commands/examples/agents/) |
+| 📊 Context | context, cost, usage | [Examples](./docs/commands/examples/context/) |
+| 👤 Account | login, logout, privacy-settings | [Examples](./docs/commands/examples/account/) |
+| 🔧 System | status, doctor, bug, model | [Examples](./docs/commands/examples/system/) |
+| 🚀 Advanced | sandbox, vim, statusline, terminal-setup | [Examples](./docs/commands/examples/advanced/) |
+
+---
+
+## 🎓 Learning Paths
+
+### Zero-to-Hero Users
 ```
-Lesson 1 (quick scan) → Lesson 2 → Lesson 4 → Lesson 5 → Lesson 6 → Lesson 7 → Lesson 8 → Lesson 9 → Lesson 10
-Estimated time: 1-2 weeks
+Lesson 1 → Lesson 2 → Lesson 3 → Lesson 4 → Lesson 6 (Real Project)
+Estimated learning time: 2-3 weeks
 ```
 
-### For Professional Developers
+**Learning Focus:**
+- Understand basic concepts and working principles
+- Master basic commands and file operations
+- Complete a full real-world project
+- Develop AI-assisted programming mindset
+
+### Users with Programming Background
 ```
-Lesson 2 (installation) → Lesson 5 → Lesson 7 → Lesson 8 → Lesson 9 (must-learn) → Lesson 10 (must-learn)
-Estimated time: 3-5 days
+Lesson 1 (Quick Scan) → Lesson 2 → Lesson 4 → Lesson 5 → Lesson 6 → Lesson 7 → Lesson 8 → Lesson 9 → Lesson 10
+Estimated learning time: 1-2 weeks
 ```
 
-## 💡 Learning Tips
+**Learning Focus:**
+- Quickly master basic operations
+- Deep dive into advanced techniques
+- Master prompt optimization
+- Configure AI sub-agent system
 
-1. **Follow the sequence** - Later lessons build on earlier knowledge
-2. **Practice hands-on** - Every lesson has exercises, make sure to do them
-3. **Don't skip** - Even if it seems simple, go through it
-4. **Ask questions** - When stuck, ask Claude Code directly
-5. **Take notes** - Record common commands and techniques
-6. **Build projects** - After each stage, create a small project to consolidate
+### Professional Developers
+```
+Lesson 2 (Install) → Lesson 5 → Lesson 7 → Lesson 8 → Lesson 9 (Must-Learn) → Lesson 10 (Must-Learn) → Lesson 12 → Lesson 13 → Lesson 14
+Estimated learning time: 3-5 days
+```
+
+**Learning Focus:**
+- Advanced features and best practices
+- Prompt optimization techniques (efficiency key)
+- AI sub-agent system (team collaboration)
+- MCP server integration
+- Production environment practices
+
+---
+
+## 💡 Learning Suggestions
+
+### Basic Principles
+1. ✅ **Learn in sequence** - Later lessons build on earlier knowledge
+2. ✅ **Practice hands-on** - Complete practice tasks for each lesson
+3. ✅ **Don't skip** - Review everything, even if it seems simple
+4. ✅ **Ask questions** - When confused, ask Claude Code directly
+5. ✅ **Take notes** - Record frequently used commands and tips
+6. ✅ **Build projects** - Create small projects after each stage to consolidate
+
+### Efficiency Tips
+- 📌 **Use command reference** - Check the [Command Index](./docs/commands/README.md) anytime
+- 📌 **Reference examples** - Check [Command Examples](./docs/commands/examples/) when facing issues
+- 📌 **Establish workflow** - Refer to [Best Practices](./docs/tutorials/en/12-最佳实践.md)
+- 📌 **Optimize prompts** - Study [Prompt Techniques](./docs/tutorials/en/09-提示词优化技巧.md)
+
+---
 
 ## 🎯 Learning Objectives
 
 After completing this tutorial, you will be able to:
 
-- ✅ Use Claude Code proficiently for daily development
-- ✅ Complete frontend and backend projects independently
+- ✅ Proficiently use Claude Code for daily development
+- ✅ Independently complete frontend and backend projects
 - ✅ Apply best practices to write high-quality code
 - ✅ Design and implement complex application architectures
-- ✅ Establish a complete development workflow
-- ✅ Use AI to boost efficiency by 10x
+- ✅ Configure and use MCP servers to extend functionality
+- ✅ Create professional AI sub-agent teams
+- ✅ Establish complete development workflows
+- ✅ **Use AI to boost development efficiency by 10x**
 
-## 📚 Extended Learning Resources
+---
+
+## 📚 Extended Resources
+
+### Official Resources
+- 📖 [Claude Code Official Documentation](https://docs.claude.com/en/docs/claude-code)
+- 🐙 [GitHub Repository](https://github.com/anthropics/claude-code)
+- 🐛 [Issue Tracker](https://github.com/anthropics/claude-code/issues)
 
 ### Recommended Articles
 
 #### 1. Claude Code Optimization Guide
-Stop writing prompts blindly! This Claude Code optimization guide will boost your efficiency by 10x
+Stop writing random prompts! This Claude Code optimization guide will boost your efficiency by 10x
 
 🔗 [Read Article](https://juejin.cn/post/7539544124669870115)
 
-#### 2. Claude Code AI Agent Collection
-Comprehensive collection of 83 professional AI agents for Claude Code, covering expertise across software development, infrastructure, and business operations
+#### 2. Claude Code AI Sub-Agent Collection
+Comprehensive collection of 83 professional AI sub-agents for Claude Code, covering expertise in software development, infrastructure, and business operations
 
 🔗 [GitHub Repository](https://github.com/wshobson/agents)
 
-#### 3. AI Workflow Practice
-After 1 year of effort, I finally have my own AI workflow
+#### 3. AI Workflow in Practice
+After 1 year, I finally have my own AI workflow
 
 🔗 [Read Article](https://aicoding.juejin.cn/post/7551359585900331060)
 
-#### 4. AI Programming for International Markets
-Don't know what to do with AI programming for international markets? Using this method, some earn $14,000+ monthly
+#### 4. AI Programming for Global Market
+Don't know what to build with AI programming? Using this method, some people earn $15K/month
 
 🔗 [Read Article](https://aicoding.juejin.cn/post/7553598949196021812)
 
+### Community Resources
+- 💬 [Telegram Group](https://t.me/fnzero_group)
+- 💬 [Discord Server](https://discord.gg/vuazbGkqQE)
+- 🌐 [Official Website](https://fnzero.dev/)
+
+---
+
 ## 🚀 Start Learning
 
-Ready? Let's start with Lesson 1!
+Ready to begin? Choose the learning path that suits you:
 
-👉 [Lesson 1: What is Claude Code?](./tutorials/en/01-basics.md)
+| Experience Level | Recommended Starting Point | Estimated Time |
+|:---:|:---|:---:|
+| Zero-to-Hero | [Lesson 1: What is Claude Code?](./docs/tutorials/en/01-基础概念.md) | 2-3 weeks |
+| With Background | [Lesson 2: Installation and Configuration](./docs/tutorials/en/02-安装和配置.md) | 1-2 weeks |
+| Professional | [Lesson 9: Prompt Optimization Techniques](./docs/tutorials/en/09-提示词优化技巧.md) | 3-5 days |
 
-## 📞 Get Help
+Or directly check out:
+- 📋 [Command Reference Guide](./docs/commands/README.md) - Quick command lookup
+- 💡 [Command Usage Examples](./docs/commands/examples/) - Learn practical usage
+- 🎯 [Best Practices](./docs/tutorials/en/12-最佳实践.md) - Official recommended methods
 
-- 💬 Have questions? Ask Claude Code directly in your project
-- 🐛 Found errors? Submit an Issue
+---
+
+## 📞 Getting Help
+
+### Having Issues?
+- 💬 Ask Claude Code directly in your project
+- 🔍 Search the [Command Reference Guide](./docs/commands/README.md)
+- 📖 Check the [Complete Usage Guide](./docs/tutorials/en/14-完整使用指南.md)
+- 🐛 Submit an [Issue](https://github.com/0xfnzero/AI-Code-Tutorials/issues)
+
+### Want to Contribute?
 - 💡 Have suggestions? Pull Requests welcome
+- 📝 Found an error? Submit an Issue
+- 🌟 Find it useful? Give us a Star
+
+---
+
+## 🤝 Contribution Guide
+
+We welcome all forms of contributions!
+
+### How to Contribute
+1. Fork this repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+### Contribution Types
+- 📝 Improve documentation and tutorials
+- 🐛 Fix bugs and issues
+- 💡 Add new examples and tips
+- 🌍 Translate to other languages
+- ✨ Propose new features
+
+---
+
+## 📊 Project Statistics
+
+- ✅ **14 Complete Lessons** - From beginner to expert
+- ✅ **40+ Sub-modules** - Detailed topic explanations
+- ✅ **30+ Commands** - Complete command reference
+- ✅ **8 Command Categories** - Systematic command classification
+- ✅ **Bilingual** - Support for Chinese and English
+- ✅ **Continuously Updated** - Following latest versions
+
+---
 
 ## 📄 License
 
-This tutorial follows the MIT License, free to use and share.
+This tutorial follows the [MIT License](./LICENSE). Feel free to use and share.
 
 ---
 
-⭐ If this tutorial helps you, please give it a Star!
+## 🌟 Star History
 
-## 🌟 Contributors
+If this tutorial helps you, please give us a Star!
 
-Thanks to all contributors who make this tutorial better!
-
-<!-- Add contributor avatars here -->
-
-## 📈 Project Status
-
-- ✅ 10 complete courses
-- ✅ From beginner to expert
-- ✅ Includes hands-on projects
-- ✅ Continuously updated
-
-## 🗺️ Roadmap
-
-- [ ] Add video tutorials
-- [ ] Community Q&A section
-- [ ] More real-world case studies
-- [ ] Interactive exercises
-- [ ] Certification program
+[![Star History Chart](https://api.star-history.com/svg?repos=0xfnzero/AI-Code-Tutorials&type=Date)](https://star-history.com/#0xfnzero/AI-Code-Tutorials&Date)
 
 ---
 
-<p align="center">Made with ❤️ by the Claude Code Community</p>
+<div align="center">
+    <p><strong>Made with ❤️ by the Claude Code Community</strong></p>
+    <p>
+        <a href="https://fnzero.dev/">Website</a> •
+        <a href="https://t.me/fnzero_group">Telegram</a> •
+        <a href="https://discord.gg/vuazbGkqQE">Discord</a>
+    </p>
+</div>
+
+---
+
+⭐ **If this tutorial helps you, please give us a Star!**
