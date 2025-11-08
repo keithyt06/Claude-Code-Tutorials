@@ -167,7 +167,7 @@ Claude-Code-Tutorials/
 
 | 类别 | 说明 | 链接 |
 |:---|:---|:---:|
-| 📋 命令索引 | 所有命令的完整列表和快速参考 | [查看](./docs/commands/README_CN.md) |
+| 📋 命令索引 | 所有命令的完整列表和快速参考 | [查看](./docs/commands/README.md) |
 | 💼 会话管理 | clear, compact, exit, rewind | [示例](./docs/commands/examples/session-management/) |
 | ⚙️ 项目配置 | config, init, memory, permissions | [示例](./docs/commands/examples/project-config/) |
 | 🔄 工作流 | review, todos, export, pr_comments | [示例](./docs/commands/examples/workflow/) |
